@@ -1,0 +1,39 @@
+.ui.topmenu.menu {
+  font-size: 16px;
+  padding: 2em;
+}
+
+.footer-background {
+  margin-top: 20px;
+  background-color: #dddddd;
+
+}
+
+h2 {
+  font-size: 1.618em;
+  display: block;
+  margin: 1em 0px 1em 0px;
+}
+
+h3 {
+  font-size: .826em;
+  line-height: 1.95em;
+
+}
+
+.ft-sec {
+  background-color: #eeeeee;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+.ft-img {
+  padding: 40px;
+}
+
+.footer-text {
+  margin: 10px 40px 10px 40px;
+  padding: 1.25em;
+}
