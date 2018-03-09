@@ -1,11 +1,12 @@
 import React from 'react';
-import { Header, Segment, Image, Grid } from 'semantic-ui-react';
+import { Header, Segment, Image, Grid, Container } from 'semantic-ui-react';
 
 export default class FeaturedSec extends React.Component {
   render() {
     return (
-        <div>
-          <Segment borderless clearing>
+      <Container textAlign='center'>
+        <div className="ft-sec" >
+          <Segment basic clearing >
             <Header as='h2' floated='left'>
               Featured Events
             </Header>
@@ -33,9 +34,8 @@ export default class FeaturedSec extends React.Component {
               <Header as='h4' floated='left'>LUKE COMBS</Header>
             </Grid.Column>
           </Grid>
-
-
         </div>
+      </Container>
     );
   }
 }

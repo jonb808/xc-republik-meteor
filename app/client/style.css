@@ -1,12 +1,24 @@
+body {
+  background: #eeeeee !important;
+}
+
+.ui.segment {
+  margin-top: 15px;
+  background: #eeeeee;
+}
+
 .ui.topmenu.menu {
-  font-size: 16px;
-  padding: 2em;
+  font-size: .826em;
 }
 
 .footer-background {
   margin-top: 20px;
   background-color: #dddddd;
 
+}
+.ui.grid .ui.image {
+  padding: 2.2em;
+  background-color: white;
 }
 
 h2 {
@@ -18,11 +30,15 @@ h2 {
 h3 {
   font-size: .826em;
   line-height: 1.95em;
-
 }
 
 .ft-sec {
+  text-align: left;
+  position: relative;
   background-color: #eeeeee;
+  max-width: 1100px;
+  width: 96%;
+  margin: 40px;
 }
 
 h4 {
@@ -37,3 +53,4 @@ h4 {
   margin: 10px 40px 10px 40px;
   padding: 1.25em;
 }
+
